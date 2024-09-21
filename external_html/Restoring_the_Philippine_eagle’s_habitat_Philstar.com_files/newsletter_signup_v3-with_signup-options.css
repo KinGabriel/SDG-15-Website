@@ -1,0 +1,157 @@
+.newsletter-sign-up-wrap {
+    margin-bottom: 15px
+}
+
+#newsletter-signup-form {
+    text-align: left;
+    padding: 20px 20px 3px;
+    background-size: 100%auto;
+    background-repeat: no-repeat;
+    background-image: url(https://media.philstar.com/assets/newsletter/News_Roundup%20promotion_320x320_MREC%20new%20bg.jpg);
+    background-color:#198fcb;
+}
+
+#newsletter-signup-form h2,.newsletter-sign-up-wrap.article #newsletter-signup-form h2 {
+    font-size: 0
+}
+
+#newsletter-signup-form p {
+    font-size: 0;
+    margin-bottom: 133px;
+}
+
+#newsletter-signup-form span.br,.signup-msg {
+    display: block
+}
+
+#newsletter-signup-form input {
+    width: 65%;
+    border: 0 solid #c7c6c6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 9px 20px;
+    margin: 0 5px 10px 0;
+    text-align: left;
+    font-size: 12px;
+    vertical-align: top
+}
+
+#newsletter-signup-form button {
+    width: 50%;
+    border: 0;
+    background-color: #f6d30b;
+    color: #1e1e1e;
+    padding: 6px;
+    box-sizing: border-box;
+    font-family: robotobold;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: initial;
+    border-radius: 5px
+}
+button#newsletter-signup-form_signup_via {
+    background-color: transparent;
+    padding-left: 0;
+    margin-left: -3px;
+    width: 56%;
+    text-align: left;
+}
+button#newsletter-signup-form_signup_via img{
+    max-width: 100%;
+}
+
+.nl-signup-label {
+    color: white;
+    padding: 5px 0 0;
+    font-size: .9rem;
+}
+
+.newsletter-sign-up-wrap.article {
+    border-top: 1px solid #c7c6c6;
+    margin-top: 20px
+}
+
+.newsletter-sign-up-wrap.article #newsletter-signup-form {
+    border: 0;
+    margin: 20px 0;
+    padding: 30px 46px;
+    text-align: left;
+    background-image: url(https://media.philstar.com/assets/newsletter/newsletter-bg-article.svg);
+    background-color:#198fcb;
+}
+
+.newsletter-sign-up-wrap.article #newsletter-signup-form span.br {
+    display: contents
+}
+
+.newsletter-sign-up-wrap.article #newsletter-signup-form p {
+    font-size: 0;
+    margin-bottom: 17%
+}
+
+.newsletter-sign-up-wrap.article #newsletter-signup-form input#newsletter-signup-form_email {
+    margin-bottom: 0;
+    display: inline-block
+}
+
+.signup-msg {
+    font-size: .85rem;
+    margin-bottom: 10px
+}
+
+.signup-msg,.signup-msg.success {
+    color: #fff;
+    font-family: robotolight
+}
+
+.newsletter-sign-up-wrap.article .signup-msg {
+    margin-top: 5px;
+    text-align: center
+}
+
+@media only screen and (min-width: 575px) {
+    .newsletter-sign-up-wrap.article #newsletter-signup-form {
+        border: 0
+    }
+
+    .newsletter-sign-up-wrap.article input#newsletter-signup-form_email {
+        width: 68%
+    }
+
+    .newsletter-sign-up-wrap.article button#newsletter-signup-form_signup {
+        display: inline-block;
+        padding: 6px;
+        font-size: 1rem;
+        vertical-align: top;
+        width: 30%;
+        margin-left: 0;
+        text-align: center
+    }
+
+    .newsletter-sign-up-wrap.article .signup-msg {
+        text-align: center;
+        float: left;
+        width: 66%;
+        margin-top: 5px;
+        margin-left: 0;
+        margin-right: 34%
+    }
+}
+
+@media only screen and (max-width: 574px) {
+    .newsletter-sign-up-wrap.article #newsletter-signup-form {
+        padding: 20px 28px;
+        background-image: url(https://media.philstar.com/assets/newsletter/newsletter-bg-article-mobile.svg);
+        background-color: #3c97d4
+    }
+
+    .newsletter-sign-up-wrap.article #newsletter-signup-form span.br {
+        display: block
+    }
+
+    .newsletter-sign-up-wrap.article #newsletter-signup-form input#newsletter-signup-form_email {
+        margin-bottom: 17px;
+        margin-top: 61%;
+        width: 100%
+    }
+}
